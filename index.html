@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yousef Douhan</title>
+<link rel="icon" href="assets/favicon.svg">
+<meta property="og:title" content="Yousef Douhan · Backend Developer">
+<meta property="og:image" content="assets/me.jpg">
+<meta name="description" content="Yousef Douhan — Backend Developer (PHP & Laravel). Projects, skills and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<nav id="nav"><div class="nav">
+  <a class="logo" href="#top"><i>YD</i><span data-t="brand">Yousef Douhan</span></a>
+  <div class="links">
+    <a href="#about" data-t="n1">About</a><a href="#work" data-t="n2">Work</a><a href="#skills" data-t="n3">Skills</a><a href="#path" data-t="n4">Journey</a><a href="#contact" data-t="n5">Contact</a>
+  </div>
+  <button class="lang" id="lang" aria-label="Switch language">العربية</button>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="status ld" style="--d:.1s"><b></b><span data-t="status">Open to remote backend roles</span></div>
+      <h1 class="ld" style="--d:.25s"><span data-t="hi">Hi, I'm</span><span data-t="name" style="color:var(--ink)">Yousef Douhan</span></h1>
+      <p class="role ld" style="--d:.45s"><span id="type"></span><span class="caret"></span></p>
+      <p class="lead ld" style="--d:.6s" data-t="intro">Backend developer. I build secure, tested Laravel systems, from the ERD on paper to APIs in production.</p>
+      <div class="cta ld" style="--d:.75s">
+        <a class="btn p mag" href="#work"><span data-t="b1">See my work</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn g mag" href="#contact" data-t="b2">Get in touch</a>
+      </div>
+      <div class="stats ld" style="--d:.9s">
+        <div class="stat"><strong><span class="cnt" data-to="350">0</span>+</strong><span data-t="s1">automated tests in one project</span></div>
+        <div class="stat"><strong><span class="cnt" data-to="330">0</span>+</strong><span data-t="s2">hours of certified training</span></div>
+        <div class="stat"><strong><span class="cnt" data-to="4">0</span></strong><span data-t="s3">full Laravel projects shipped</span></div>
+      </div>
+    </div>
+    <div class="portrait ld" style="--d:.3s">
+      <svg class="traces" viewBox="0 0 600 630" aria-hidden="true">
+        <defs><path id="t1" d="M0 120 H90 L130 160 H190"/><path id="t2" d="M0 300 H60 L100 260 H150"/><path id="t3" d="M600 200 H520 L480 240 H420"/><path id="t4" d="M600 430 H540 L500 470 H440"/><path id="t5" d="M300 630 V580 L340 540"/><path id="t6" d="M420 0 V50 L380 90"/></defs>
+        <use href="#t1"/><use href="#t2"/><use href="#t3"/><use href="#t4"/><use href="#t5"/><use href="#t6"/>
+        <use href="#t1" class="pulse"/><use href="#t2" class="pulse r" style="animation-delay:-1.2s"/><use href="#t3" class="pulse" style="animation-delay:-2s"/><use href="#t4" class="pulse" style="animation-delay:-.6s"/><use href="#t5" class="pulse r" style="animation-delay:-2.8s"/><use href="#t6" class="pulse" style="animation-delay:-1.6s"/>
+        <circle cx="190" cy="160" r="5"/><circle cx="150" cy="260" r="5"/><circle cx="420" cy="240" r="5"/><circle cx="440" cy="470" r="5"/><circle cx="340" cy="540" r="5"/><circle cx="380" cy="90" r="5"/>
+      </svg>
+      <div class="frame" id="frame"><img src="assets/me.jpg" alt="Portrait of Yousef Douhan" width="640" height="650"></div>
+      <div class="chip c1"><i>L</i><div><b>Laravel · PHP</b><small data-t="chip1">Backend specialist</small></div></div>
+      <div class="chip c2"><i>✓</i><div><b data-t="chip2a">Tests passing</b><small>PHPUnit · Feature &amp; Unit</small></div></div>
+    </div>
+  </div>
+  <div class="scrollhint" aria-hidden="true"></div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<section class="band" id="about">
+  <div class="wrap about">
+    <div class="rv">
+      <h2 data-t="a_h">I design the data first, then build everything on top of it.</h2>
+      <p class="lead" data-t="a_p1">Most bugs start in the schema. So I begin in MySQL Workbench, model the relations properly, and only then write migrations, models and services, one module at a time, each backed by feature tests.</p>
+      <p class="lead" data-t="a_p2">I care about clean, secure and maintainable code: form request validation, API resources, role-based access, and no business rule left without a test guarding it.</p>
+    </div>
+    <div class="flow rv" style="--d:.15s">
+      <div class="step"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></i><div><b data-t="f1">Model the data</b><small data-t="f1s">ERD, relations, indexes</small></div></div>
+      <div class="step"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg></i><div><b data-t="f2">Secure the doors</b><small data-t="f2s">Sanctum, Passport, RBAC, middleware</small></div></div>
+      <div class="step"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></i><div><b data-t="f3">Build the logic</b><small data-t="f3s">Service layer, Eloquent, REST APIs</small></div></div>
+      <div class="step"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h9"/></svg></i><div><b data-t="f4">Prove it works</b><small data-t="f4s">PHPUnit feature and unit tests</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band feat" id="work">
+  <div class="wrap">
+    <h2 class="rv" data-t="w_h">Selected work</h2>
+    <p class="lead rv" data-t="w_p">Real systems with real rules: authentication, payments, permissions and the tests to back them.</p>
+    <article class="fcard rv">
+      <div class="fvis" aria-hidden="true">
+        <div class="mock">
+          <div class="mbar"><i></i><i></i><i></i></div>
+          <div class="mbody">
+            <div class="mside"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="mmain">
+              <div class="col"><u></u><div class="tk mv"></div><div class="tk"></div><div class="tk a"></div></div>
+              <div class="col"><u></u><div class="tk"></div><div class="tk b"></div></div>
+              <div class="col"><u></u><div class="tk b"></div><div class="tk"></div><div class="tk"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="finfo">
+        <span class="tag" data-t="cs_tag">Featured · Huma-volve challenge 2026</span>
+        <h3>CollabSpace</h3>
+        <p class="lead" style="margin:0" data-t="cs_p">A team collaboration platform built from scratch from a Figma design. Delivered three ways: a REST API, a full Blade web app, and the API powering a separate frontend.</p>
+        <div class="pills"><span>Laravel 13</span><span>Sanctum</span><span>MySQL</span><span>REST API</span><span>Blade</span><span>Render</span></div>
+        <div class="cta" style="margin-top:4px">
+          <a class="btn p mag" href="https://collabspace-s3qk.onrender.com" target="_blank" rel="noopener"><span data-t="live">Live demo</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+          <a class="btn g mag" href="https://youtu.be/gzkJ8Fmxl0U" target="_blank" rel="noopener" data-t="video">Watch the video</a>
+          <a class="btn g mag" href="https://github.com/Yousef-Douhan/collabspace" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="grid">
+      <article class="pc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div>
+        <h3 data-t="m_h">Madar · Learning Management System</h3>
+        <p data-t="m_p">A full LMS designed from the ERD up: roles and permissions, courses and curriculum, enrollments, quizzes, progress, coupons, carts, orders and payments.</p>
+        <ul class="ticks"><li data-t="m1">350+ PHPUnit feature tests on in-memory SQLite</li><li data-t="m2">PDF certificates with Arabic text, QR codes and public verification</li><li data-t="m3">Loophole-free coupon engine and bilingual admin dashboard</li></ul>
+        <div class="pills"><span>Laravel</span><span>MySQL</span><span>PHPUnit</span><span>mPDF</span></div>
+      </article>
+      <article class="pc rv" style="--d:.1s">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11h18M5 11a7 7 0 0114 0M12 4v1M4 15h16l-1 4H5z"/></svg></div>
+        <h3 data-t="r_h">Restaurant Control Panel</h3>
+        <p data-t="r_p">An admin panel and API endpoints to manage menus, categories and customer orders, with form request validation and API Resources for clean JSON.</p>
+        <div class="pills"><span>Laravel</span><span>MySQL</span><span>REST API</span><span>Postman</span></div>
+        <a class="more" href="https://github.com/Yousef-Douhan/restaurant-project-main" target="_blank" rel="noopener"><span data-t="code">View code</span> →</a>
+      </article>
+      <article class="pc rv" style="--d:.2s">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></div>
+        <h3 data-t="e_h">E-Commerce Auth System</h3>
+        <p data-t="e_p">A secure backend with multi-role authentication and protected routes, plus Eloquent models for the product catalog and order tracking, tuned with indexes.</p>
+        <div class="pills"><span>Laravel</span><span>Sanctum</span><span>Passport</span><span>MySQL</span></div>
+        <a class="more" href="https://github.com/Yousef-Douhan/eiser_shop" target="_blank" rel="noopener"><span data-t="code">View code</span> →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="skills">
+  <div class="wrap">
+    <h2 class="rv" data-t="sk_h">Toolbox</h2>
+    <p class="lead rv" data-t="sk_p">What I reach for every day to ship backend work that holds up.</p>
+    <div class="sk" id="sk"></div>
+  </div>
+</section>
+
+<section class="band" id="path" style="background:var(--bg2);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <h2 class="rv" data-t="p_h">Journey</h2>
+    <div class="path">
+      <div class="rv"><h3 style="margin-bottom:22px;color:var(--ice)" data-t="edu">Education</h3>
+        <div class="tl"><div class="ti"><time>2023 – 2027</time><h3 data-t="u_h">B.Sc. Computer Engineering</h3><p data-t="u_p">Islamic University of Gaza · Database Systems, OOP, Software Engineering, Data Structures, Algorithms, Computer and Network Security.</p></div></div>
+      </div>
+      <div class="rv" style="--d:.15s"><h3 style="margin-bottom:22px;color:var(--ice)" data-t="cert">Certifications and training</h3>
+        <div class="tl" id="certs"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band contact" id="contact">
+  <div class="wrap">
+    <h2 class="rv" data-t="c_h">Let's build something solid.</h2>
+    <p class="lead rv" data-t="c_p">Looking for a backend developer for a remote team or a freelance project? I reply quickly.</p>
+    <div class="cg">
+      <a class="ci rv" href="mailto:yousefdouhan006@gmail.com"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></i><div><b data-t="mail">Email</b><small>yousefdouhan006@gmail.com</small></div></a>
+      <a class="ci rv" style="--d:.05s" href="https://wa.me/972592157706" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.6-4.6A8.5 8.5 0 1112 20.5a8.4 8.4 0 01-4.3-1.2z"/></svg></i><div><b>WhatsApp</b><small>+972 59 215 7706</small></div></a>
+      <a class="ci rv" style="--d:.1s" href="https://www.linkedin.com/in/yousefdouhan" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg></i><div><b>LinkedIn</b><small>in/yousefdouhan</small></div></a>
+      <a class="ci rv" style="--d:.15s" href="https://github.com/Yousef-Douhan" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 015 0c1.9-1.3 2.7-1 2.7-1 .6 1.4.2 2.4.1 2.7.7.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg></i><div><b>GitHub</b><small>Yousef-Douhan</small></div></a>
+      <a class="ci rv" style="--d:.2s" href="https://www.youtube.com/@YousefDouhan" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 8.2a3 3 0 00-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 002 8.2 31 31 0 001.6 12a31 31 0 00.4 3.8 3 3 0 002.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 002.1-2.1 31 31 0 00.4-3.8 31 31 0 00-.4-3.8zM10 15V9l5.2 3z"/></svg></i><div><b>YouTube</b><small>@YousefDouhan</small></div></a>
+      <a class="ci rv" style="--d:.25s" href="https://www.instagram.com/yousef_douhan/" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></i><div><b>Instagram</b><small>@yousef_douhan</small></div></a>
+    </div>
+    <button class="copy" id="copy" data-t="copy">Copy email address</button>
+  </div>
+</section>
+<footer><span data-t="foot">© 2026 Yousef Douhan · Backend Developer · Gaza, Palestine</span></footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
